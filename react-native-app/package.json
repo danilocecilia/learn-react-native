@@ -21,6 +21,10 @@
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
-    "react-native": "0.52.0"
+    "react-native": "0.52.0",
+    "react-native-material-cards": "^1.0.7",
+    "react-native-material-design": "^0.3.7",
+    "react-native-material-design-styles": "^0.2.7",
+    "react-native-vector-icons": "^4.5.0"
   }
 }
