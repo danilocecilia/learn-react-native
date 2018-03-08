@@ -1,10 +1,29 @@
-import React from 'react';
-import Main from './src/pages/Main';
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  View,
+  StatusBar
+} from 'react-native';
 
-export default class App extends React.Component {
+
+import Routes from './src/Routes';
+
+export default class App extends Component {
   render() {
     return (
-      <Main />
+      <View style={styles.container}>
+        <StatusBar
+          backgroundColor="#ede9e6"
+          barStyle="light-content"
+        />
+        <Routes />
+      </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  }
+});
