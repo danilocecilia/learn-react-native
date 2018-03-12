@@ -6,8 +6,14 @@ import {
     TextInput,
     TouchableOpacity
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 export default class Form extends Component {
+
+    login() {
+        Actions.home()
+    }
+
     render() {
         return (
             <View style={styles.container}>
@@ -27,7 +33,7 @@ export default class Form extends Component {
                     placeholderTextColor="#4e4139"
                     ref={(input) => this.password = input}
                 />
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity onPress={this.login} style={styles.button}>
                     <Text style={styles.buttonText}>{this.props.type}</Text>
                 </TouchableOpacity>
             </View>

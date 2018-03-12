@@ -20,9 +20,11 @@
   },
   "dependencies": {
     "expo": "^25.0.0",
+    "native-base": "^2.3.10",
     "react": "16.2.0",
     "react-native": "0.52.0",
-    "react-native-material-cards": "^1.0.7",
+    "react-native-elements": "^1.0.0-beta2",
+    "react-native-material-cards": "git+https://github.com/SiDevesh/React-Native-Material-Cards.git",
     "react-native-material-design": "^0.3.7",
     "react-native-material-design-styles": "^0.2.7",
     "react-native-router-flux": "^4.0.0-beta.28",
